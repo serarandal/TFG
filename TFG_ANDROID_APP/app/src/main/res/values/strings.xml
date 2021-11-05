@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TFG_01</string>
+    <string name="wifiID">wifiID</string>
+    <string name="password">password</string>
+    <string name="singIn">sing In</string>
+    <string name="config">Config</string>
+    <string name="control">control</string>
+</resources>

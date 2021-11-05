@@ -1,0 +1,4 @@
+if internet_on():
+    self.hi_there["text"] = "Connected"
+else:
+    self.hi_there["text"] = "Error conection"
