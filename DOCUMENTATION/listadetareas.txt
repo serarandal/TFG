@@ -1,0 +1,11 @@
+Anteproyecto
+1-Descripción y concreción de la idea
+2-Busqueda del hardware
+3-Busqueda de las herramientas software
+4-Planificación.
+5-Construcción de diagramas hw y sw.
+Memoria.
+1-Busqueda de otros proyectos en el mismo ambito
+2-Implementación->2.1Código del hw->2.2App de android2.3->App de pc.
+3-Construcción
+4-redacción de la memoria.
