@@ -1,11 +1,27 @@
-Anteproyecto
-1-Descripción y concreción de la idea
-2-Busqueda del hardware
-3-Busqueda de las herramientas software
-4-Planificación.
-5-Construcción de diagramas hw y sw.
-Memoria.
-1-Busqueda de otros proyectos en el mismo ambito
-2-Implementación->2.1Código del hw->2.2App de android2.3->App de pc.
-3-Construcción
-4-redacción de la memoria.
+1-Description y materialisation of the idea.
+2-System requisites.
+3-Planification of task and times.
+4-Study of the tools for android development.
+5-Study of the tools for pc development.
+6-Study and search of the system hardware.
+7-Other studies(state of the art,tools used for writting and diagrams)
+8-Design of the system architecture.
+9-Design of the android application interface.
+10-Design of the pc application interface.
+11-Design of the android application functionality.
+12-Design of the pc application functionality.
+13-Design of the hardware application functionality.
+14-Design of the live camera feed functionality.
+15-Design of the connection between apps.
+16-Other designs.
+17-Development of the android application interface.
+18-Development of the pc application interface.
+19-Development of the android application functionality.
+20-Development of the pc application functionality.
+21-Development of the hardware application functionality.
+22-Quality assurance.
+23-Other development time.
+24-Hardware test.
+25-Meetings with the tutor.
+26-Wrinting of the document.
+

@@ -1,0 +1,44 @@
+Objectives
+Summary
+Abstract
+1.Introduction and first approach to the problem
+2.State of the art
+ 2.x 5 similar projects
+3.Requisites requerements and specification.
+ 3.1 Functional requisites.
+ 3.2 Development requisites.
+4.Methodology
+5. Resources used in the project
+5.1 development enviroments.
+5.1.x Pycharm ------
+5.2 Languages
+5.2.x Python-----
+5.3 Other resources
+5.3.x Packages
+5.3.x Libraries.
+5.3.x Github
+6. System components
+6.1 Sensors
+6.2 Android APP
+6.3 Video server
+6.4 Hardware
+6.5 Pc App
+6.6 Connection
+7. milestones and implementation.
+8. Design of the system
+9.User manual
+9.xAPP
+9.x.ysteps
+10. Problems found and answers provided
+10.x Problems found during pc app software development.
+10.x.y problem x
+11.project budget
+11.1 Time cost
+11.1.1 Gantt diagram
+11.1.2 Gantt diagram
+11.1.3 Deviation
+11.2 Economic cost
+12. Medioambiental awareness and etical responsability
+13. Conclusion
+14. Future development 
+15. Bibliography.
