@@ -1,0 +1,35 @@
+ def runTasks(self):
+        threadCount = QThreadPool.globalInstance().maxThreadCount()
+        pool = QThreadPool.globalInstance()
+        runnable = Runnable(0)
+        pool.start(runnable)
+        
+class Runnable(QRunnable):
+    def __init__(self, n):
+        super().__init__()
+        self.n = n
+
+    def run(self):
+        def on_press(key):
+            if key == key.up:
+                if key == key.left:
+                    r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
+                elif key == key.right:
+                    r = requests.post('http://192.168.1.110:70/data/', data='0=100&')
+                else:
+                    r = requests.post('http://192.168.1.110:70/data/', data='90=100&')
+            elif key == key.down:
+                if key == key.left:
+                    r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
+                elif key == key.right:
+                    r = requests.post('http://192.168.1.110:70/data/', data='380=100&')
+                else:
+                    r = requests.post('http://192.168.1.110:70/data/', data='270=100&')
+
+        def on_release(key):
+            if key == key.esc:
+                r = r = requests.post('http://192.168.1.110:70/data/', data='0,0')
+                return False
+
+        with Listener(on_press=on_press, on_release=on_release) as listener:
+            listener.join()
