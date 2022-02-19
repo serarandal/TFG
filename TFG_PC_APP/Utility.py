@@ -20,10 +20,17 @@ def camera2_on():
         return False
 
 def sendSpeedDirection(buttonpressed):
-    r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
-    r = requests.post('http://192.168.1.110:70/data/', data='0=100&')
-    r = requests.post('http://192.168.1.110:70/data/', data='90=100&')
-    r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
-    r = requests.post('http://192.168.1.110:70/data/', data='380=100&')
-    r = requests.post('http://192.168.1.110:70/data/', data='270=100&')
-    r = r = requests.post('http://192.168.1.110:70/data/', data='0,0')
+    if buttonpressed == "w":
+        r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
+    if buttonpressed == "wl":
+        r = requests.post('http://192.168.1.110:70/data/', data='0=100&')
+    if buttonpressed == "wr":
+        r = requests.post('http://192.168.1.110:70/data/', data='90=100&')
+    if buttonpressed == "s":
+        r = requests.post('http://192.168.1.110:70/data/', data='180=100&')
+    if buttonpressed == "sl":
+        r = requests.post('http://192.168.1.110:70/data/', data='380=100&')
+    if buttonpressed == "sr":
+        r = requests.post('http://192.168.1.110:70/data/', data='270=100&')
+    if buttonpressed == "x":
+        r = requests.post('http://192.168.1.110:70/data/', data='0,0')
