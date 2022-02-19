@@ -18,7 +18,7 @@ if __name__ == "__main__":
     ui2 = ConfigWindow.Ui_MainWindow2()
     ui3 = ControlWindow.Ui_MainWindow3()
     #ui7 = PasswordWindow.Popup()
-    ui.setupUi(MainWindow,MainWindow2)
+    ui.setupUi(MainWindow,MainWindow2,MainWindow3)
     ui2.setupUi(MainWindow2)
     ui3.setupUi(MainWindow3)
     #ui7.setupUi(PopupWindow)
