@@ -1,0 +1,16 @@
+In this next chapter, we are going to study the different papers and articles released that have some similarity to our project,
+because they have the same objective or show some aspect that support the development of this project, such as power consumption, human adaptation and acceptance of systems like ours...
+
+After researching and reading a lot off different papers we found that there are a lot of studies about drones but not a lot of them really focus on real application purposes.
+We found that energy demands of drone-based transportation is similar to the ground based transportation even being more energy expensive to use flying drone transportation,
+ which proves that using ground-based drones is more energy efficient that using flying ones.[add here Kirschstein T Comparison of energy demands of drone-based...]
+In this demand of new systems we found that a lot off development and research tried to find uses for drones in management of global enviroments, such as temperature mapping and other enviromental causes [add Yang X Mapping temperature Forest]
+Other projects and research shows us that the rate of success with the ground-based drones is high, such as the sweet pepper harvesting robot[refenrencia], it display that using ground-based drones for real purposes and automatization is possible.
+The society has already accepted the used of automated systems and human-robot interaction, as shown in the[Trusting robocop: Gender-based effects on trust of an autonomous robot].
+
+Other researchers have already explain the utility and usefulness of ground-based security surveillance, the vast majority focus on ground-based IoT for new security.[Drones to manage the urban enviroment] 
+The first challenge researchers had with iot security was the privacy and security , there has been different approaches to answer this problem, such as creating a new model.[IoT Privacy and Security]
+Different researchers have found the need for new security robot based either for workplaces or for public places, we have seen that using advance ai vision processing and ground-based drones we can achieve a higher standard of security in modern society.[2010 IEE workshop on advanced robotic]
+In the workplace[Need for developing a security robot-based risk management]
+The state of the art technology is able to support all this new systems based of microprocessors and microcomputers new development and improvement, new microprocessors are able to support new input and higher bandwith without needing to create new advance architectures between different processors.[Design of Multifunctional intelligent]
+We found a few prototipes which shows the need for a better prototipe that really show what ground-based system can do[Proceedings of the 2020 IEE][Wireless based intelli]
