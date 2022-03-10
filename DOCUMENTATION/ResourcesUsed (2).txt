@@ -1,0 +1,172 @@
+In this chapter we are going to explain the resources that have been used. We will explain why we choose them and the different options that are available for the same type of developement. In this chapter , things such as libraries, packages and other software components will be also included.
+Development environments 
+The development environments that have been used in this development are:
+
+	Pycharm
+	
+	Pycharm is a dedicated Python Integrated Development Environment, providing a wide range of essential tools for Pythons developers, tightly integrated to create a convenient environment for productive Python, web and data science development.
+	I choose this ide because it has a free to use version and a pay to use version, both have the same features except from some complex data science packages, in our case it did not matter. This enviroment has a deeply integrated control version feature, which is able to find your .git folder inside the project and makes the commits and push commands without any extra configuration. Thanks to this enviroment we could develop the computer application without any sort of enviroment problems. 
+    
+    Alternatives to Pycharm
+    
+    Visual studio code
+    	Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+    
+    Atom
+    Atom is a free and open-source text and source code editor developed by GitHub. Its developers call it a "hackable text editor for the 21st Century". Atom enables users to install third-party packages and themes to customize the features and looks of the editor, so you can set it up according to your preferences and with ease.
+    Eclipse
+    Eclipse is an integrated development environment. It contains a base workspace and an extensible plug-in system for customizing the environment.
+
+It was not that hard to find the enviroment we wanted to work with, because the text editors need a lot of configuration to be able to integrate them with the control version and other libraries. With those out of the picture, the decision was easy, we picked pycharm because it has everything already built in, and if we wanted to use eclipse we would have to install all the needed plug-ins to work with python.
+   
+	Arduino ide
+	The Arduino Integrated Development Environment - or Arduino Software (IDE) - contains a text editor for writing code, a message area, a text console, a toolbar with buttons for common functions and a series of menus. It connects to the Arduino hardware to upload programs and communicate with them.
+	We choose the arduino ide for the easy to use UI and the easy package manage it has inside.
+	
+Alternatives to arduino ide
+	
+   Atom.io + PlatformIO
+   Atom is a free and open-source text and source code editor developed by GitHub. Its developers call it a "hackable text editor for the 21st Century". Atom enables users to install third-party packages and themes to customize the features and looks of the editor, so you can set it up according to your preferences and with ease.
+   PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+   
+   Eclipse for Arduino
+   Eclipse is an integrated development environment. It contains a base workspace and an extensible plug-in system for customizing the environment.
+   You will need to use the arduino plug-in.
+   
+   Visual Studio Code
+   Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+   
+   In this case the decision of which enviroment to choose was hard, in one hand, we have an easy to use enviroment, the own ide of arduino and in the other hand we have text-editors with more powerful tools.
+   In the end we decided to use the arduino ide, because we were going to use the control version for the full project, so we did not need the use of powerful text-editors for each part.
+   Also it was the easiest to set up and use out of the box.
+   
+	Android Studio
+	Android Studio is the official integrated development environment for Android application development. It is based on the IntelliJ IDEA, a Java integrated development environment for software, and incorporates its code editing and developer tools.
+To support application development within the Android operating system, Android Studio uses a Gradle-based build system, emulator, code templates, and Github integration.
+	We choose android studio because we already had use the enviroment and were use to the way android studio works.
+	
+	Alternatives to Android Studio
+	
+	Intellij idea
+	IntelliJ IDEA is an Integrated Development Environment for JVM languages designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
+	You will need the android plug-in.
+	
+	Visual studio
+	Microsoft Visual Studio is an IDE made by Microsoft and used for different types of software development such as computer programs, websites, web apps, web services, and mobile apps. It contains completion tools, compilers, and other features to facilitate the software development process.
+	You will need the android plug-in.
+	
+	Eclipse
+	Eclipse is an integrated development environment. It contains a base workspace and an extensible plug-in system for customizing the environment.
+	You will need the android plug-in.
+	
+	In this field, the answer to the question, what to choose? was easy, the only windows and linux native app for android development is android studio, the other enviroments will need the android plug-in to work with android development, which make it harder to configure.
+	
+	Notepad++
+	Notepad++ is a text and source code editor for use with Microsoft Windows. It supports tabbed editing, which allows working with multiple open files in a single window.
+	We choose notepad++ because it is easy to use and we already had it, it also does not change the file extension neither the application that launch each file extension which makes it easy to use without having to change or configure anything in your development enviroment.
+	 
+	Alternatives to Notepad++
+	
+	Visual studio code
+	Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+	
+	Sublime text
+	Sublime Text is a commercial source code editor. It natively supports many programming languages and markup languages. Users can expand its functionality with plugins, typically community-built and maintained under free-software licenses. To facilitate plugins, Sublime Text features a Python API. 
+	
+	Atom
+	Atom is a free and open-source text and source code editor developed by GitHub. Its developers call it a "hackable text editor for the 21st Century". Atom enables users to install third-party packages and themes to customize the features and looks of the editor, so you can set it up according to your preferences and with ease.
+	
+	The decision here is difficult , if you do not have one already, you should look deeper into it, for us it was easy because we already used notepad++ in other developments. Atom,visual studio code and notepad++ are free to use, between them the difference moves between ui , how to import new packages and plug-ins and community support.
+	
+	Postman
+	Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+	We used postman because it lets you send https and http messages using the application ui through a connection. 
+	
+	Alternatives to Postman
+	
+	Amazon API gateway
+	One of the most widely used applications for streamlining administrations is Amazon API Gateway. Its operation is very flexible and dependable. Amazon API provides a fantastic setup and security for hosting REST APIs that comply with HIPAA regulations. External settings, such as portable or web apps, and back-end services, such as RDS, are easily integrated with AWS API Gateway. The finest features are ease of use and dependability. The capacity to record and report information comes in second. Allows several sites to use the same API with the API Gateway.
+	
+	MuleSoft Anypoint Platform
+	This is a very good technology to integrate two systems with a security layer or a validation layer in between, this tool is very versatile and allows different types of integrations, it also provides a graphical and programmatic view of the data transformation, It also provides development tools that facilitate API design, allows us to create API prototypes and get feedback immediately using the platform, it is its potential with integration connectors that can facilitate the development of each process, it is also one of the tools It almost cuts development time in half, It is very useful for rapid application development, It is very useful for the software designer, It supports many modeling languages, It is the best platform for the implementation, management and monitoring of the application
+	
+	Azure API Management
+	Azure API Management is a reliable, secure and scalable way to publish, consume and manage API’s running on Microsoft Azure platform.  Azure API Management provides all essential tools required for an end-to-end management of API’s.  It ensures optimal performance of the API’s, tracks and enforces usage, authentication, and more.
+	
+	The choose here was easy as well , because postman is the only application with an easy to use UI that let you use only what you want without having to spend hours learning the technology.
+	
+	
+languages
+In this part we are going to explain the different languages used to develop each part of the project and why those and not others.
+
+	Java(android)
+	Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable, therefore. It is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. Java is based on the virtual machine java, which make it harder for the language to use the os power unless you use specific packages for it.
+	We choose java because it is the main language for android and the one with the most documentation online.
+	Alternatives to Java 
+	
+	Kotlin
+	Kotlin is an open-source, statically-typed programming language that supports both object-oriented and functional programming. Kotlin provides similar syntax and concepts from other languages, including C#, Java, and Scala, among many others. Kotlin does not aim to be unique—instead, it draws inspiration from decades of language development. It exists in variants that target the JVM (Kotlin/JVM), JavaScript (Kotlin/JS), and native code (Kotlin/Native).
+	
+	Here we did not have a lot to choose, there is java and kotlin, and both work together, so if we needed to optimice the app we could always use a bit of kotlin inside, and there are other langagues that can be ported to android but are not native, so performance will always take a hit if using those.
+	
+
+C and C++.
+C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software, C was developed at Bell Labs by Dennis Ritchie for the Unix Operating System in the early 1970s.
+Ranked among the most widely used languages, C has a compiler for most computer systems and has influenced many popular languages – notably C++.
+C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.
+C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
+C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983.
+C++ is a superset of C, and that virtually any legal C program is a legal C++ program.
+
+We used both on the arduino development because it is the languages you can use in the arduino ide, both are easy to use if you know what you are doing and hard to use if you are new to the coding world.
+
+	Alternatives to C and C++ 
+	
+	AMForth
+	AmForth is an easily extendible command interpreter for the Atmel AVR8 Atmega micro controller family and some variants of the TI MSP430. The RISC-V CPU (32bit) is currently beeing worked on. It has a turnkey feature for embedded use too.
+AmForth is published under the GNU Public License v3 (GPL). A commercial use is possible but for traditional commercial uses there are commercial Forths — amForth just is not one of them.
+AmForth runs completely on the controller. It does not need additional hardware. It makes no restrictions for hardware extensions that can be connected to the controller. The default command prompt is in a serial terminal.
+Forth is a unique language.
+It is based on two types of data structures: dictionaries and stacks.
+You use stacks to push numeric data on them and have them processed. Neat side-effect: that way you can use RPN for all your operations, you don't need no temporary variables yada yada. Short, you don't need parentheses. Gosh!
+The dictionary (or several of them, called modules, vocabularies or wordlists) are linked lists of words. A word is a named piece of memory that contains at least a pointer to the next word and a pointer to some code. You can define words and allocate memory to them to have pointers, data or code stored in them at your heart's content. That way, defining "subroutines" as well as close-to-arbitrary data structures is possible.
+A Forth system (that's the terminology because it is more than just an interpreter or compiler) swallows source code consisting of definitions and compiles them into words. When you call some word from the source file or from an interactive session with the system, it is executed. Executing a word means that the system mainly follows pointers to code and keeps addresses on a return stack. At the lowest level, these pointers point to assembly implementations of basic words.
+The kernel of a Forth system may well be not bigger than 8 KB. 
+
+	AVR-Ada
+	The AVR-Ada project provides the gcc based Ada compiler GNAT for the AVR 8-bit microcontrollers. This includes: - the Ada compiler - the Ada run time system and the AVR support library - documentation and some sample programs.
+	Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, extended from Pascal and other languages. It has built-in language support for design by contract , extremely strong typing, explicit concurrency, tasks, synchronous message passing, protected objects, and non-determinism. Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors. Ada is an international technical standard, jointly defined by the International Organization for Standardization (ISO), and the International Electrotechnical Commission (IEC). As of 2020, the standard, called Ada 2012 informally, is ISO/IEC 8652:2012.
+	
+	As we see, the easy way to code an arduino or similar microcontroler is to use its ide, but there are some powerfull options out there like avr-ada and AMforth that can push optimization to a new level.
+
+	Python
+	Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum. It was originally released in 1991. Designed to be easy as well as fun, the name "Python" is a nod to the British comedy group Monty Python. Python has a reputation as a beginner-friendly language, replacing Java as the most widely used introductory language because it handles much of the complexity for the user, allowing beginners to focus on fully grasping programming concepts rather than minute details.
+Python is used for server-side web development, software development, mathematics, and system scripting, and is popular for Rapid Application Development and as a scripting or glue language to tie existing components because of its high-level, built-in data structures, dynamic typing, and dynamic binding. Program maintenance costs are reduced with Python due to the easily learned syntax and emphasis on readability. Additionally, Python's support of modules and packages facilitates modular programs and reuse of code. Python is an open source community language, so numerous independent programmers are continually building libraries and functionality for it.
+
+	Alternatives for Python
+	
+	C and C++
+	C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software, C was developed at Bell Labs by Dennis Ritchie for the Unix Operating System in the early 1970s.
+Ranked among the most widely used languages, C has a compiler for most computer systems and has influenced many popular languages – notably C++.
+C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.
+C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
+C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983.
+C++ is a superset of C, and that virtually any legal C program is a legal C++ program.
+	
+	Java
+	Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable, therefore. It is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc. Java is based on the virtual machine java, which make it harder for the language to use the os power unless you use specific packages for it.
+	
+	Golang
+	Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency. The language is often referred to as Golang because of its former domain name, golang.org, but the proper name is Go.
+There are two major implementations:
+    Google's self-hosting "gc" compiler toolchain targeting multiple operating systems, and WebAssembly.
+    gofrontend, a frontend to other compilers, with the libgo library. With GCC the combination is gccgo; with LLVM the combination is gollvm.
+    
+    In this case we used python for its fast development time and easy to prototype features, if the project were to get to end users, we probably change to C and C++ for more speed and security features.
+	
+Other resources
+Packages
+kits
+Libraries
+...
+

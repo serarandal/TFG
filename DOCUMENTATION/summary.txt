@@ -1,0 +1,4 @@
+Nowadays, security is one of the key features requested by every individual, which make it easier to invest and develop in new answers to the problem. Almost every thief and security company knows that the old security systems such as cameras does not work to prevent the robbery and destruction of personal resources.
+In this document we are going to explain the development of this project assign by the subject "Proyecto Fin de Grado", in which we have develop a ground-based drone with and android application and a computer application, all focused on responsiveness and hardware based commands.
+
+The documment has been divided in the next chapters:
