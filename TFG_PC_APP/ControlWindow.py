@@ -90,7 +90,7 @@ class Ui_MainWindow3(object):
             print("moving forward")
             Utility.sendSpeedDirection("wl")
 
-    def sendForwardLefInput(self):
+    def sendForwardLeftInput(self):
         if self.read == 1:
             print("moving left and forward")
             Utility.sendSpeedDirection("wl")
