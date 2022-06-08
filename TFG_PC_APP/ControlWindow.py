@@ -55,7 +55,7 @@ class Ui_MainWindow3(object):
         self.forward.activated.connect(self.sendForwardInput)
 
         self.forwardleft = QShortcut(QKeySequence("Ctrl+w"), self.MainWindow3)
-        self.forwardleft.activated.connect(self.sendForwardLefInput)
+        self.forwardleft.activated.connect(self.sendForwardLeftInput)
 
         self.forwardrigth = QShortcut(QKeySequence("Alt+w"), self.MainWindow3)
         self.forwardrigth.activated.connect(self.sendForwardRigthInput)
@@ -88,27 +88,27 @@ class Ui_MainWindow3(object):
     def sendForwardInput(self):
         if self.read == 1:
             print("moving forward")
-            Utility.sendSpeedDirection("wl")
+            Utility.sendSpeedDirection(0)
 
     def sendForwardLeftInput(self):
         if self.read == 1:
             print("moving left and forward")
-            Utility.sendSpeedDirection("wl")
+            Utility.sendSpeedDirection(2)
 
     def sendForwardRigthInput(self):
         if self.read == 1:
             print("moving rigth and forward")
-            Utility.sendSpeedDirection("wr")
+            Utility.sendSpeedDirection(1)
 
     def sendBackwardsInput(self):
         if self.read == 1:
             print("moving backwards")
-            Utility.sendSpeedDirection("s")
+            Utility.sendSpeedDirection(5)
     def sendBackwardsLeftInput(self):
         if self.read == 1:
             print("moving left and backwards")
-            Utility.sendSpeedDirection("sa")
+            Utility.sendSpeedDirection(3)
     def sendBackwardsRigthInput(self):
         if self.read == 1:
             print("moving rigth and backwards")
-            Utility.sendSpeedDirection("sd")
+            Utility.sendSpeedDirection(4)
