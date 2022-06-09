@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             String message = "1";
             intent.putExtra(Wifialreadyconnected,message);
             startActivity(intent);
-        }
+       }
     }
 
 

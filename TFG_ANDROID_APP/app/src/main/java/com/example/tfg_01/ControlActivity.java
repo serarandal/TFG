@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.webkit.WebView;
 
 
 import com.android.volley.Request;
@@ -28,7 +29,11 @@ public class ControlActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control);
-
+        WebView myWebView = (WebView) findViewById(R.id.webView2);
+        myWebView.getSettings().setLoadWithOverviewMode(true);
+        myWebView.getSettings().setUseWideViewPort(true);
+        myWebView.getSettings().setDisplayZoomControls(true);
+        myWebView.loadUrl("http://192.168.1.184:81/stream");
         startSendingData();
 
     }

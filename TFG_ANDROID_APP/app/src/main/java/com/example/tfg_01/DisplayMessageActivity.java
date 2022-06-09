@@ -41,7 +41,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         {
             Button viewWeb =  findViewById(R.id.viewWeb);
             viewWeb.setVisibility(View.VISIBLE);
-            textView.setText("Conected");
+            textView.setText("Connected");
         }else
             {
                 connectWifi(message,message2);
