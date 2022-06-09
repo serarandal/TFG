@@ -10,6 +10,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5 import QtWebEngineWidgets
+from PyQt5.QtCore import QUrl
+
 
 class Ui_MainWindow2(object):
     def setupUi(self, MainWindow2):
@@ -20,6 +22,7 @@ class Ui_MainWindow2(object):
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout.setObjectName("gridLayout")
         self.widget = QtWebEngineWidgets.QWebEngineView(self.centralwidget)
+        self.widget.load(QUrl("http://192.168.1.184"))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)

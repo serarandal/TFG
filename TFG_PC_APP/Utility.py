@@ -21,16 +21,38 @@ def camera2_on():
 
 def sendSpeedDirection(buttonpressed):
     if buttonpressed == 2:
-        r = requests.post('http://192.168.1.110:70/data/', data='179=100&')
+      try:
+          r = requests.post('http://192.168.1.110:70/data/', data='179=100&')
+      except requests.exceptions.Timeout as e :
+          raise print(e)
+
     if buttonpressed == 1:
-        r = requests.post('http://192.168.1.110:70/data/', data='-1=100&')
+        try:
+            r = requests.post('http://192.168.1.110:70/data/', data='-1=100&')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
     if buttonpressed == 0:
-        r = requests.post('http://192.168.1.110:70/data/', data='89=100&')
+        try:
+         r = requests.post('http://192.168.1.110:70/data/', data='89=100&')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
     if buttonpressed == 3:
-        r = requests.post('http://192.168.1.110:70/data/', data='181=100&')
+        try:
+            r = requests.post('http://192.168.1.110:70/data/', data='181=100&')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
     if buttonpressed == 4:
-        r = requests.post('http://192.168.1.110:70/data/', data='379=100&')
+        try:
+            r = requests.post('http://192.168.1.110:70/data/', data='379=100&')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
     if buttonpressed == 5:
-        r = requests.post('http://192.168.1.110:70/data/', data='269=100&')
+        try:
+            r = requests.post('http://192.168.1.110:70/data/', data='269=100&')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
     if buttonpressed == 6:
-        r = requests.post('http://192.168.1.110:70/data/', data='0,0')
+        try:
+            r = requests.post('http://192.168.1.110:70/data/', data='0,0')
+        except requests.exceptions.Timeout as e:
+            raise print(e)
