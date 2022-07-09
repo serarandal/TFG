@@ -37,5 +37,22 @@
         app:shadowColor="#000"
         app:shadowRadius="7" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="94dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="63dp"
+        android:onClick="connectStop"
+        android:text="@string/stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/joystick"
+        app:layout_constraintTop_toBottomOf="@+id/webView2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

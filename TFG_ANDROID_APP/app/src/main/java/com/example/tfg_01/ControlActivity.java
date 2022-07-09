@@ -3,8 +3,10 @@ package com.example.tfg_01;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.webkit.WebView;
 
 
@@ -32,7 +34,10 @@ public class ControlActivity extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.webView2);
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.getSettings().setUseWideViewPort(true);
+        myWebView.getSettings().setBuiltInZoomControls(true);
         myWebView.getSettings().setDisplayZoomControls(true);
+        String newAgent = "Mozilla/5.0 (X11; Linux i686; rv:102.0) Gecko/20100101 Firefox/102.0";
+        myWebView.getSettings().setUserAgentString(newAgent);
         myWebView.loadUrl("http://192.168.1.184:81/stream");
         startSendingData();
 
@@ -48,14 +53,8 @@ public class ControlActivity extends AppCompatActivity {
             @Override
             public void onMove(double angle, float strength) {
 
-                connectionURL(0,0);
-
-                sleep(1);
-
                 connectionURL(angle,strength);
-
                 sleep(100);
-
 
             }
 
@@ -101,6 +100,11 @@ public class ControlActivity extends AppCompatActivity {
             };
             queue.add(postRequest);
 
+    }
+
+    public void connectStop(View view)
+    {
+        connectionURL(0,0);
     }
 
 
